@@ -38,7 +38,7 @@
 		}
 	});
 </script>
-
+<%@ include file="templates/localHeader.jsp"%>
 <h2>
 	<spring:message code="mohappointment.title" />
 </h2>

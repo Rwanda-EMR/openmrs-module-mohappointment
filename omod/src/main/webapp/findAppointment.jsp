@@ -91,7 +91,7 @@
 		});
 	}
 </script>
-
+<%@ include file="templates/localHeader.jsp"%>
 <b class="boxHeader"><spring:message code="mohappointment.appointment.find"/></b>
 <div class="box">
 	<table>

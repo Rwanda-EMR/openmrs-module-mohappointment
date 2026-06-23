@@ -19,7 +19,7 @@
 <script type="text/javascript">
 		var $j = jQuery.noConflict();
 </script>
-
+<%@ include file="templates/localHeader.jsp"%>
 <h2 style="display: inline;"><spring:message code="mohappointment.appointment"/></h2> : <span class="boldTitle"><spring:message code="mohappointment.search.title"/></span>
 <br/><br/>
 

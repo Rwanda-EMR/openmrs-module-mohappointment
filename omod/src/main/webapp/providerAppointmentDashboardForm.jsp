@@ -2,7 +2,7 @@
 <%@ include file="/WEB-INF/template/header.jsp"%>
 
 <openmrs:require privilege="View Provider Appointments" otherwise="/login.htm" redirect="/module/mohappointment/providerDashboard.form"/>
-
+<%@ include file="templates/localHeader.jsp"%>
 <!-- This taglib is imported for the DateFormatting Sake! -->
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <!-- END of "TAGLIB import" -->
